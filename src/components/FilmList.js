@@ -4,12 +4,14 @@ import Film from "./Film";
 const FilmList = ({films}) => {
     const filmNodes = films.map(film => {
         return (
-        <Film name ={film.name} key={film.id}>{film.url}</Film>
+            <Film url = {film.url} name ={film.name} key={film.id}/>
         );
-    });
+    })
 
     return(
+        <>
         {filmNodes} 
+        </>
     )
 }
 

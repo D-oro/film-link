@@ -1,14 +1,16 @@
 import React from "react";
 
-const Film = ({name, children}) => {
+const Film = ({name, url}) => {
     return(
         <>
-            <h4>{children}</h4>
-            <p>{name}</p>
+            <ul>
+                <li>
+                    <a href = {url}>{name}</a>
+                </li>
+            </ul>
         </>
     )
 }
 
-/* <a href={url}>{name}</a> */
 
 export default Film;

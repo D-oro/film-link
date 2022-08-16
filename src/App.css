@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+h2{
+  margin: 20px
+}
+
+button{
+  margin: 20px
+}
+
+.box{
+  border-width: 2px;
+  border-style: solid;
+  border-color: black
+}
